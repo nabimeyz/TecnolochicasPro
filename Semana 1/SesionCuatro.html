@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etiquetas semanticas y flexbox</title>
+  <style>
+    article{
+        background-color: blueviolet;
+        flex: 1;
+    }
+
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+  </style>
+</head>
+
+<body>
+    <h1>Elementos semanticos para construcción de Layout</h1>
+    <h3>Uso de articulos y Secciones</h3>
+    <header>
+        Titulo del sitio
+    </header>
+    <nav>Menú</nav>
+    <section>
+    <article>
+        <h1>Articulo 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel distinctio nesciunt magnam eligendi labore beatae deserunt, accusantium laboriosam similique nulla nisi nostrum! Laboriosam optio maxime quam, error totam corrupti.</p>
+    </article>
+    <article style="flex:1;">
+        <h1>Articulo 2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae in aspernatur illo minima odit totam beatae atque modi expedita rerum maiores ea, dignissimos minus quisquam, sunt optio voluptatibus aut?</p>
+    </article>
+    <article style="flex:2;">
+        <h1>Articulo 3</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe asperiores placeat ad? Tempora cumque, impedit saepe placeat fugiat, beatae qui earum animi incidunt repellendus nobis? Quod sed sit molestias aliquid!</p>
+    </article>
+    </section>
+    <footer>Footer</footer>
+
+    <h3>Uso de aside, nav y div</h3>
+    <header>Titulo del sitio</header>
+    <nav>Menú</nav>
+    <div>
+        <aside style="display:inline-block; width:20%; background:lightblue;">
+        Links relacionados</aside>
+        <section style="display:inline-block; width:60%; background:lightpink; padding-right: 19%;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti animi provident itaque mollitia sed assumenda atque dolore? Nihil repellendus ab cumque, quisquam, dolorem dolore maxime, sit voluptas consectetur aliquid nulla!
+        </section>
+    </div>
+    <footer>Footer</footer>
+
+    <h3>Definición de Layout</h3>
+    <a href="layoutSesionCuatro.html"> Aqui esta el ejercicio con todos los elementos</a>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Layout</title>
+    <style>
+        body {
+            background-color: honeydew;
+        }
+        div {
+            border: 1px solid blue;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mi primer tabla</h1>
+
+    <table border="2px">
+<tr>
+    <th>Nombre</th>
+    <th>Edad</th>
+    <th>Ciudad</th>
+</tr>
+<tr>
+    <td>Metztli Huertero</td>
+    <td>20</td>
+    <td>Ciudad de México</td>
+</tr>
+<tr>
+    <td>Daniela Sánchez</td>
+    <td>19</td>
+    <td>Tamaulipas</td>
+</tr><tr>
+    <td>Samanta Granada</td>
+    <td>3</td>
+    <td>Baja California</td>
+</tr>
+    </table>
+
+
+    <h1>Construcción de Layout con tablas</h1>
+    <table border="1px" style="width:100%;">
+<tr>
+    <td colspan="3">Titulo de la página</td>
+</tr>
+<tr>
+    <td colspan="3">Menú</td>
+</tr>
+<tr>
+    <td style="width:20%;">Links relacionados</td>
+    <td style="width:60%;">Contenido</td>
+    <td style="width:20%;"></td> <!--Void-->
+</tr>
+<tr>
+    <td colspan="3">Footer</td>
+</tr>
+    </table>
+
+
+    <h1>Construcción de Layout con divs</h1>
+    <div>Titulo de la página</div>
+    <div>Menú</div>
+    <div>
+       <div style="float:left; width: 20%;">Links relacionados</div>
+       <div style="float:left; width: 60%;">Contenido</div>
+       <div style="float:left; width: 20%;">Void</div> <!--Espacio vacío--> 
+    </div>
+    <div style="width:100%;">Footer</div>
+   
+</body>
+</html>
